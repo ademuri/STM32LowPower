@@ -53,7 +53,7 @@ jobs:
       id: Compile
       uses: stm32duino/actions/compile-examples@main
       with:
-        board-pattern: ".*NUCLEO.*"
+        board-pattern: ".*NUCLEO.*|GenG0"
         libraries: "STM32duino RTC"
 
     # Use the output from the `Compile` step
